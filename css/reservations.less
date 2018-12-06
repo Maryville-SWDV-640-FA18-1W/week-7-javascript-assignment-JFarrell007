@@ -1,0 +1,56 @@
+@import (reference) "base.less";
+
+.newreservation {
+    min-height: 200px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+
+    .dining-photo{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+        height:30%;
+    }
+}
+.bordered {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid @orange;
+}
+.form-inline{
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    input,select,button {
+        vertical-align: middle;
+        margin: 25px 25px 25px 0;
+        background-color:@white;
+        font-family: @fontAwe;
+        color:@orange;    
+        font-size: 18;   
+        width: 150px;       
+        .bordered();
+    }
+    button {
+        color:@white;
+        background-color: @orange;
+    }
+    button:hover {
+        background-color:red;
+    }
+}
+.resDate:before {
+    font-family:@fontAwe;
+    content: "\f073";
+}
+.resTime:before {
+    /*font-family: "FontAwesome";*/
+    font-family:@fontAwe;
+    content: "\f017";
+}
+.inputLabel {
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -1,0 +1,316 @@
+
+body {
+    background-color: #0C0E09;
+    font-family: 'Raleway', 'sans-serif';
+    color: white;
+}
+
+h1 {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 16px;
+    font-weight: bold;
+}
+h4 {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 16px;
+}
+
+.button1 {
+    font-family: 'Raleway', 'sans-serif';
+    background-color: #FB9C02;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.button2 {
+    background-color: #FB9C02;
+    color: #0C0E09;
+}
+.button3 {
+    background-color: #0C0E09;
+    color: #FB9C02;
+}
+.button4 {
+    background-color: #0C0E09;
+    color: white;
+}
+
+.inputLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input.inputField {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #FB9C02;
+}
+
+div.box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+div.box2 {
+    height: 20px;
+    width: 50px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+div.box3 {
+    height: 60px;
+    width: 270px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 48px;
+}
+
+#primary1 {
+    background-color: #FB9C02;
+    color: #0C0E09;
+}
+
+#primary1-with-white {
+    background-color: #FB9C02;
+    color: white;
+}
+
+#primary2 {
+    background-color: #0C0E09;
+    color: #FB9C02;
+}
+
+#primary2-with-white {
+    background-color: #0C0E09;
+    color: white;
+}
+
+#primary3 {
+    background-color: #E7C296;
+    color: #0C0E09;
+}
+#primary3-with-white {
+    background-color: #E7C296;
+    color: white;
+}
+
+.info {
+    background-color: rgb(128, 128, 231);
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.warning {
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.danger {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+ 
+.navbar {
+    float: left;
+    margin-bottom: 0;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #0C0E09;
+    color: white;
+    border: 10;
+    font-size: 14px !important;
+    letter-spacing: 4px;
+}
+@media (max-width:600px){
+    .navbar-brand img{
+      width:100px;
+      max-height:50px;
+    }
+}
+.navbar li a, .navbar .navbar-brand { 
+    font-family: 'Raleway', sans-serif;
+    color: white !important;  
+}
+
+.navbar-brand small {
+    display:block;
+    font-size:10px;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #FB9C02 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    /*color: #000 !important;*/
+    color: #FB9C02;
+    background-color: #0C0E09;
+}
+
+/* On hover, the dropdown links will turn #FB9C02 */
+.dropdown-menu li a:hover {
+    background-color: #FB9C02;
+}
+
+.top-bar {
+    color: white;
+    background-color: #FB9C02;
+    text-align:center;
+}
+
+#primary1 {
+    background-color: #FB9C02;
+    color: #0C0E09;
+}
+
+#primary1-with-white {
+    background-color: #FB9C02;
+    color: white;
+}
+
+#primary2 {
+    background-color: #0C0E09;
+    color: #FB9C02;
+}
+
+#primary2-with-white {
+    background-color: #0C0E09;
+    color: white;
+}
+
+#primary3 {
+    background-color: #E7C296;
+    color: #0C0E09;
+}
+#primary3-with-white {
+    background-color: #E7C296;
+    color: white;
+}
+
+
+.container {
+    /*padding: 80px 120px;*/
+    padding: 0px 0px;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;  
+}        
+/*.carousel-indicators {
+bottom:-50px;
+}*/
+.carousel-indicators li {
+ border-color: #FB9C02;
+}
+.carousel-indicators .active {
+background-color: #FB9C02;
+}
+.carousel-control {
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    height: 100px;
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+.carousel .item > img {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    min-height: 200px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/*
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.large {
+    text-align: center;
+}
+
+*/

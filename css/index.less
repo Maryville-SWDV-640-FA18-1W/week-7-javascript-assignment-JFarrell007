@@ -1,0 +1,48 @@
+@import (reference) "base.less";
+
+.carousel-control.right{ 
+    background-image: none;  
+} 
+.carousel-control.left {
+    &:extend(.carousel-control.right);
+}
+.carousel-indicators li {
+    border-color: @orange;
+}
+.carousel-indicators .active {
+    background-color: @orange;
+}
+.carousel-control {
+    position: absolute;
+    top: 50%;
+}
+.carousel-inner img {
+    width: 90%; /* Set width to 90% */
+    height: 100px;
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: @white !important;
+}
+.largeWelcome {
+    color: @orange;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+.carousel .item > img {
+    top: 0;
+    left: 0;
+    min-height: 200px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}

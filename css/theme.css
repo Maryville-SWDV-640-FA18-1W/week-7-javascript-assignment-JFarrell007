@@ -1,0 +1,202 @@
+body {
+  background-color: #0C0E09;
+  font-family: 'Raleway', 'sans-serif';
+  color: white;
+  margin-bottom: 5%;
+}
+h1 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 24px;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 20px;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 16px;
+  font-weight: bold;
+}
+h4 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 16px;
+}
+.coolFont {
+  font-family: 'Tangerine', 'serif';
+  text-align: center;
+  color: #FB9C02;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 48px;
+}
+@media (max-width: 600px) {
+  .navcontainer .navbar-brand img {
+    width: 100px;
+    max-height: 50px;
+  }
+}
+.navcontainer .navbar {
+  float: left;
+  margin-bottom: 0;
+  padding-right: 0%;
+  padding-left: 0%;
+  font-family: 'Raleway', 'sans-serif';
+  background-color: #0C0E09;
+  color: white;
+  border: 10;
+  font-size: 14px !important;
+  letter-spacing: 4px;
+}
+.navcontainer .navbar li a,
+.navcontainer .navbar .navbar-brand {
+  font-family: white;
+  color: white !important;
+}
+.navcontainer .navbar-brand small {
+  display: block;
+  font-size: 10px;
+}
+.navcontainer .navbar-nav li a:hover {
+  color: white !important;
+}
+.navcontainer .navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navcontainer .open .dropdown-toggle {
+  color: white;
+  background-color: #FB9C02 !important;
+}
+.navcontainer .dropdown-menu li a {
+  color: #FB9C02;
+  background-color: #0C0E09;
+}
+.navcontainer .dropdown-menu li a:hover {
+  background-color: #FB9C02;
+}
+.navcontainer .top-bar {
+  color: white;
+  background-color: #FB9C02;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FB9C02;
+  color: white;
+  text-align: center;
+  max-height: 5%;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-indicators li {
+  border-color: #FB9C02;
+}
+.carousel-indicators .active {
+  background-color: #FB9C02;
+}
+.carousel-control {
+  position: absolute;
+  top: 50%;
+}
+.carousel-inner img {
+  width: 90%;
+  /* Set width to 90% */
+  height: 100px;
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: white !important;
+}
+.largeWelcome {
+  color: #FB9C02;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+.carousel .item > img {
+  top: 0;
+  left: 0;
+  min-height: 200px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+.carousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.newreservation {
+  min-height: 200px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+.newreservation .dining-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+}
+.bordered {
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid #FB9C02;
+}
+.form-inline {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form-inline input,
+.form-inline select,
+.form-inline button {
+  vertical-align: middle;
+  margin: 25px 25px 25px 0;
+  background-color: white;
+  font-family: 'FontAwesome', 'sans-serif';
+  color: #FB9C02;
+  font-size: 18;
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid #FB9C02;
+}
+.form-inline button {
+  color: white;
+  background-color: #FB9C02;
+}
+.form-inline button:hover {
+  background-color: red;
+}
+.resDate:before {
+  font-family: 'FontAwesome', 'sans-serif';
+  content: "\f073";
+}
+.resTime:before {
+  /*font-family: "FontAwesome";*/
+  font-family: 'FontAwesome', 'sans-serif';
+  content: "\f017";
+}
+.inputLabel {
+  font-size: 14px;
+  font-weight: bold;
+}
+.menufood {
+  min-height: 200px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.menufood .row {
+  background-color: #E7C296;
+}

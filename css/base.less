@@ -1,0 +1,115 @@
+@orange:#FB9C02;
+@black:#0C0E09;
+@beige:#E7C296;
+@white:white;
+@fontRal: 'Raleway', 'sans-serif';
+@fontTan: 'Tangerine', 'serif';
+@fontAwe: 'FontAwesome', 'sans-serif';
+
+
+body {
+    background-color: @black;
+    font-family: @fontRal;
+    color: @white;
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-family: @fontRal;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: @fontRal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: @fontRal;
+    font-size: 16px;
+    font-weight: bold;
+}
+h4 {
+    font-family: @fontRal;
+    font-size: 16px;
+}
+.coolFont {
+    font-family:@fontTan;
+    text-align:center;
+    color:@orange;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 48px;
+}
+.navcontainer {
+
+    @media (max-width:600px){
+        .navbar-brand img{
+        width:100px;
+        max-height:50px;
+        }
+    }
+
+    .navbar {
+        float: left;
+        margin-bottom: 0;
+        padding-right: 0%;
+        padding-left: 0%;
+        font-family: @fontRal;
+        background-color: @black;
+        color: @white;
+        border: 10;
+        font-size: 14px !important;
+        letter-spacing: 4px;
+    }
+
+    .navbar li a, .navbar .navbar-brand { 
+        font-family: @white;
+        color: @white !important;  
+    }
+
+    .navbar-brand small {
+        display:block;
+        font-size:10px;
+    }
+
+    .navbar-nav li a:hover {
+        color: @white !important;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+
+    .open .dropdown-toggle {
+        color: @white ;
+        background-color: @orange !important;
+    }
+
+    .dropdown-menu li a {
+        color: @orange;
+        background-color: @black;
+    }
+
+    .dropdown-menu li a:hover {
+        background-color: @orange;
+    }
+
+    .top-bar {
+        color: @white;
+        background-color: @orange;
+        text-align:center;
+    }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color:@orange;
+    color:@white;
+    text-align:center;
+    max-height: 5%;
+}

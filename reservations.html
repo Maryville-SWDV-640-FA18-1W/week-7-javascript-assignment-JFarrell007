@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dewey and Finn's Restaurant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="css/theme.css">
+  <!-- food images from https://www.pexels.com/search/food/ -->
+</head>
+<body>    
+  <!--<div class="container">-->   
+  <div class="navcontainer">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="top-bar">
+          <p>555-555-1234 | 123 Food St Anytown GA | Open Daily at 11:00 am</p>
+          <p>Happy Hour Mon-Fri 5pm - 6pm Half Price Drinks</p>
+      </div>              
+      <div class="navbar-header">
+        <button type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>   
+        <a class="navbar-brand" >
+            <img src="images/logo.jpg" alt="Dewey and Finn's Restaurant" style="width:70%; margin-top: -8%;"
+            role="img" aria-label="Dewey and Finn's Restaurant"> 
+        </a>         
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MENUS
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="menufood.html">Food</a></li>
+              <li><a href="beverages.html">Beverages</a></li>
+            </ul>
+          </li>
+          <li><a href="reservations.html">RESERVATIONS</a></li>
+          <li><a href="#location">LOCATION</a></li>
+          <li><a href="#review">REVIEW</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="newreservation">
+        <div class="coolFont"> Reservations</div>
+        <img class="dining-photo" src="images/dining.jpeg" alt="Dining Area">
+        <form class="form-inline" action="/action_page.php">
+          <div class="form-group">
+            <label for="reservation" class="inputLabel">Date</label>
+            <input type="date" name="reservation-date" class="resDate">              
+          </div>
+          <div class="form-group">
+                <label for="time" class="inputLabel">Time</label>
+                <select>
+                    <option value="1100">&#xf017; 11:00 AM</option>
+                    <option value="1130">&#xf017; 11:30 AM</option>
+                    <option value="1200">&#xf017; 12:00 PM</option>
+                    <option value="1230">&#xf017; 12:30 PM</option>
+                    <option value="1300">&#xf017; 1:00 PM</option>
+                    <option value="1330">&#xf017; 1:30 PM</option>
+                    <option value="1400">&#xf017; 2:00 PM</option>
+                    <option value="1430">&#xf017; 2:30 PM</option>
+                    <option value="1500">&#xf017; 3:00 PM</option>
+                    <option value="1530">&#xf017; 3:30 PM</option>
+                    <option value="1600">&#xf017; 4:00 PM</option>
+                    <option value="1630">&#xf017; 4:30 PM</option>
+                    <option value="1700">&#xf017; 5:00 PM</option>
+                    <option value="1730">&#xf017; 5:30 PM</option>
+                    <option value="1800">&#xf017; 6:00 PM</option>
+                    <option value="1830">&#xf017; 6:30 PM</option>
+                    <option value="1900">&#xf017; 7:00 PM</option>
+                    <option value="1930">&#xf017; 7:30 PM</option>
+                    <option value="2000">&#xf017; 8:00 PM</option>
+                    <option value="2030">&#xf017; 8:30 PM</option>
+                    <option value="2100">&#xf017; 9:00 PM</option>
+                </select>              
+            <!--<label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">-->
+          </div>
+          <div class="form-group">
+            <label for="guests" class="inputLabel">Guests</label>
+            <select>
+                <option value="1">&#xf007; 1 Person</option>
+                <option value="2">&#xf0c0; 2 People</option>
+                <option value="3">&#xf0c0; 3 People</option>
+                <option value="4">&#xf0c0; 4 People</option>
+                <option value="5">&#xf0c0; 5 People</option>
+                <option value="6">&#xf0c0; 6 People</option>
+            </select>              
+            <!--<label><input type="checkbox" name="remember"> Remember me</label>-->
+          </div>
+          <button type="submit" class="findtable">Find Table</button>
+        </form>
+    </div>
+    <div class="footer">
+        <a class="up-arrow" href="reservations.html" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Dewey and Finn's dog gone good food</p> 
+    </div> 
+</body>      
+</html>  

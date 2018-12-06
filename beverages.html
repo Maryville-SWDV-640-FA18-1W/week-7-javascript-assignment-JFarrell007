@@ -57,7 +57,7 @@
   </div>
   <br><br><br><br><br><br><br><br><br>
   <script id="template" type="x-tmpl-mustache">
-    <div class="coolFont"> {{drink.category}}</div>
+    <div class="coolFont"> {{drink1.category}}</div>
     {{#white}}
     <div class="row">
         <div class="col-sm-5"><h3>{{name}}</h3></div>
@@ -65,13 +65,32 @@
         <div class="col-sm-2"><h3>${{price}}</h3></div>
       </div>
     {{/white}}
+    <hr>
+    <div class="coolFont"> {{drink2.category}}</div>
+    {{#red}}
+    <div class="row">
+        <div class="col-sm-5"><h3>{{name}}</h3></div>
+        <div class="col-sm-5"><h3>{{location}}</h3></div>
+        <div class="col-sm-2"><h3>${{price}}</h3></div>
+      </div>
+    {{/red}}
+    <hr>
+    <div class="coolFont"> {{drink3.category}}</div>
+    {{#beer}}
+    <div class="row">
+        <div class="col-sm-5"><h3>{{name}}</h3></div>
+        <div class="col-sm-5"><h3>{{location}}</h3></div>
+        <div class="col-sm-2"><h3>${{price}}</h3></div>
+      </div>
+    {{/beer}}
+    <hr>
 
 </script>
 
 <div id="target"></div>
 
 <div class="footer">
-    <a class="up-arrow" href="index.html" data-toggle="tooltip" title="TO TOP">
+    <a class="up-arrow" href="beverages.html" data-toggle="tooltip" title="TO TOP">
        <span class="glyphicon glyphicon-chevron-up"></span>
     </a><br><br>
     <p>Dewey and Finn's dog gone good food</p> 

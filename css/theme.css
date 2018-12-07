@@ -200,3 +200,14 @@ h4 {
 .menufood .row {
   background-color: #E7C296;
 }
+.locationcontainer .locationmap {
+  text-align: center;
+}
+.locationcontainer .locationmap .iframe {
+  display: block;
+}
+.locationcontainer div.col-sm-2 {
+  text-align: center;
+  border: solid;
+  border-color: #FB9C02;
+}

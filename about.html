@@ -10,9 +10,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
   <link rel="stylesheet" href="css/theme.css">
-  <script type="text/javascript" src="js/jquery-3.3.1-1.min.js"></script>
-  <script type="text/javascript" src="js/mustache-1.js"></script>
-  <script type="text/javascript" src="js/menufood.js"></script>  
   <!-- food images from https://www.pexels.com/search/food/ -->
 </head>
 <body>    
@@ -55,46 +52,19 @@
       </div>
     </nav>
   </div>
-  <script id="template" type="x-tmpl-mustache">
-        <div class="menufood">
-        <div class="container-fluid">      
-        <div class="coolFont"> {{food1.category}}</div>
-        {{#app}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/app}}
-        <div class="coolFont"> {{food2.category}}</div>
-        {{#soup}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/soup}}
-        <div class="coolFont"> {{food3.category}}</div>
-        {{#steak}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/steak}}
-        <div class="coolFont"> {{food4.category}}</div>
-        {{#chicken}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/chicken}}        
-        </div>
+  <div class="aboutcontainer">
+        <div class="coolFont">Our Story</div>
+    <div class="coolFont">Dewey and Finnegan</div>
+    <div class="allabout">
+        <p><img src="images/dewey_finn.jpg" alt="Dewey and Finnegan" aria-describedby="p1"> <br><br><br>Often referred to as crumb snachers or 
+        moochers we consider ourselves food connoisseurs.  What can we say.  We LOVE food! So it makes complete sense to 
+        have a restaurant named after us. We taste test any and all food that hits the floor. No such thing as a 3-second
+        rule.  Dewey's labrador nose gets the ingredients correct every time.  If you don't like the food served 
+        at our restaurant we will eat it ourselves. We will also make arrangements to get you to your doctor just to make
+        sure you are ok.  Our personal attention includes sitting by your side and watching your every bite. We 
+        want you to feel at home in our establishment.</p>
     </div>
-    </script>
-    
-    <div id="targetfood"></div>
+</div>
 <div class="footer">
     <a class="up-arrow" href="menufood.html" data-toggle="tooltip" title="TO TOP">
        <span class="glyphicon glyphicon-chevron-up"></span>

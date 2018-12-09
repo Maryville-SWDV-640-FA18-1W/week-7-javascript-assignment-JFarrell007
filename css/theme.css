@@ -104,11 +104,15 @@ h4 {
   position: absolute;
   top: 50%;
 }
-.carousel-inner img {
-  width: 90%;
+.carousel-inner {
+  width: 100%;
   /* Set width to 90% */
+}
+.carousel-inner img {
   height: 100px;
   margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .carousel-caption h3 {
   color: white !important;
@@ -131,8 +135,8 @@ h4 {
   padding-bottom: 20px;
 }
 .carousel .fill {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   background-position: center;
   background-size: cover;
 }
@@ -194,11 +198,14 @@ h4 {
 }
 .menufood {
   min-height: 200px;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .menufood .row {
   background-color: #E7C296;
+  color: #0C0E09;
 }
 .locationcontainer .locationmap {
   text-align: center;
@@ -210,4 +217,41 @@ h4 {
   text-align: center;
   border: solid;
   border-color: #FB9C02;
+}
+.aboutcontainer {
+  min-height: 200px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.aboutcontainer img {
+  float: right;
+  width: 30%;
+  height: 30%;
+  padding-bottom: 200px;
+}
+.aboutcontainer p {
+  font-family: 'Raleway', 'sans-serif';
+  color: #E7C296;
+  font-size: x-large;
+}
+.reviews {
+  min-height: 200px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.reviews .row {
+  /*background-color:@beige;*/
+  color: #E7C296;
+  font-size: x-large;
+}
+#target {
+  min-height: 200px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }

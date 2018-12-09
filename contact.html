@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/theme.css">
   <script type="text/javascript" src="js/jquery-3.3.1-1.min.js"></script>
   <script type="text/javascript" src="js/mustache-1.js"></script>
-  <script type="text/javascript" src="js/menufood.js"></script>  
+  <script type="text/javascript" src="js/beverages.js"></script>
   <!-- food images from https://www.pexels.com/search/food/ -->
 </head>
 <body>    
@@ -55,50 +55,12 @@
       </div>
     </nav>
   </div>
-  <script id="template" type="x-tmpl-mustache">
-        <div class="menufood">
-        <div class="container-fluid">      
-        <div class="coolFont"> {{food1.category}}</div>
-        {{#app}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/app}}
-        <div class="coolFont"> {{food2.category}}</div>
-        {{#soup}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/soup}}
-        <div class="coolFont"> {{food3.category}}</div>
-        {{#steak}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/steak}}
-        <div class="coolFont"> {{food4.category}}</div>
-        {{#chicken}}
-        <div class="row">
-            <div class="col-sm-4"><h3>{{name1}}</h3><p>{{description1}}</p></div>
-            <div class="col-sm-4"><h3>{{name2}}</h3><p>{{description2}}</p></div>
-            <div class="col-sm-4"><h3>{{name3}}</h3><p>{{description3}}</p></div>
-          </div>
-        {{/chicken}}        
-        </div>
-    </div>
-    </script>
-    
-    <div id="targetfood"></div>
+
+
 <div class="footer">
-    <a class="up-arrow" href="menufood.html" data-toggle="tooltip" title="TO TOP">
+    <a class="up-arrow" href="contact.html" data-toggle="tooltip" title="TO TOP">
        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
+    </a><br><br>
     <p>Dewey and Finn's dog gone good food</p> 
 </div>       
 </body>

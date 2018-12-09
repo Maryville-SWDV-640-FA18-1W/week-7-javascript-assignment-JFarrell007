@@ -1,0 +1,50 @@
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-indicators li {
+  border-color: #FB9C02;
+}
+.carousel-indicators .active {
+  background-color: #FB9C02;
+}
+.carousel-control {
+  position: absolute;
+  top: 50%;
+}
+.carousel-inner {
+  width: 100%;
+  /* Set width to 90% */
+}
+.carousel-inner img {
+  height: 100px;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.carousel-caption h3 {
+  color: white !important;
+}
+.largeWelcome {
+  color: #FB9C02;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+.carousel .item > img {
+  top: 0;
+  left: 0;
+  min-height: 200px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+.carousel .fill {
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+}

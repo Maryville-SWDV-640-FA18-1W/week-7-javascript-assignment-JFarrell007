@@ -34,7 +34,8 @@ $(document).ready(function(){
                 name2: "Field of Dreams Salad 9",
                 description2: "Fresh from the field with champagne shallot vinaigrette.",
                 name3: "Classic Cobb Salad 12",
-                description3: "Diced grilled chicken, tomatores,bacon,avocado,hard-boiled eggs, blue cheese crumbles, green onions and coutons on a bed of crips romaine and iceberg with Bleu Cheese dressing."
+                description3: "Diced grilled chicken, tomatores,bacon,avocado,hard-boiled eggs, blue cheese crumbles," +
+                " green onions and coutons on a bed of crips romaine and iceberg with Bleu Cheese dressing."
             },
             {
                 name1: "Dewey and Finn's packed potato soup 5",
